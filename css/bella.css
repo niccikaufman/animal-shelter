@@ -34,3 +34,14 @@ body {
 li a:hover {
   background-color: cadetblue;
 }
+
+.header-img {
+  height: auto;
+  margin: auto;
+  padding: 5px;
+  width: auto;
+  display: block;
+  border-style: dashed;
+  border-width: 2px;
+  border-color: antiquewhite;
+}
