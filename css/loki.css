@@ -1,0 +1,36 @@
+body {
+  background-color: skyblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page-title {
+  text-align: center;
+  color: antiquewhite;
+  font-style: italic;
+  font-size: 22pt;
+  line-height: .5;
+  padding: 25px;
+}
+
+.sidenav ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: burlywood;
+}
+
+.sidenav li {
+  list-style-type: none;
+  display: inline;
+}
+
+.sidenav li a {
+  margin: 10px;
+  color: antiquewhite;
+  padding: 15px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: cadetblue;
+}
