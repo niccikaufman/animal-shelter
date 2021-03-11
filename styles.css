@@ -11,24 +11,6 @@ body {
   line-height: .5;
 }
 
-.site-nav {
-  background-color: lightgray;
-  margin-top: 5%;
-}
-
-.site-nav a {
-  box-sizing: content-box;
-  margin: 0;
-  padding-top: 10px;
-  color: lightcoral;
-}
-
-.sidebar li {
-  list-style-type: none;
-  margin: 5px;
-  float: right;
-}
-
 .header-img {
   height: 50%;
   margin: auto;
@@ -38,3 +20,64 @@ body {
   border-width: 2px;
   border-color: antiquewhite;
 }
+
+.sidenav ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: burlywood;
+}
+
+.sidenav li {
+  list-style-type: none;
+  display: inline;
+}
+
+.sidenav li a {
+  margin: auto;
+  color: antiquewhite;
+  padding: 16px;
+  text-decoration: none;
+  float: left;
+}
+
+li a:hover {
+  background-color: cadetblue;
+}
+
+/* Loki
+My history is a mystery and my friends here do not know much about me yet.
+I have lived with other dogs in my last home.
+I lived with cats in my last home.
+I really enjoy the company of my human friends. 
+Type	Dog
+Breed	Shih Tzu - Maltese
+Sex	Male
+Color	Wheaten
+Age	1 years and 6 months
+Weight	9.2 lbs
+
+Larry
+I love to learn and explore! You can use my favorite toys or treats to teach me new things.
+Cheek and chin scratches make me so happy!
+My purr motor is always running.
+I lived with other cats in my last home.
+I have been diagnosed with dental disease which means I may need dental cleanings or extractions in the future.
+Type	Cat
+Breed	Domestic Medium Hair
+Sex	Male
+Color	Black
+Age	1 years
+Weight	9.4 lbs
+
+Bella 
+I have displayed behaviors toward other animals that will require additional caution and good management.
+I get easily frustrated and can exhibit this in a variety of ways. I will need positive outlets for my energy and a calm environment.
+I love to learn! You can use my favorite toys or treats as positive reinforcement and to teach me new things.
+I know some basic cues, such as sit.
+Type	Dog
+Breed	Shepherd
+Sex	Female
+Color	Tan, Black
+Age	3 years
+Weight	64.5 lbs */
