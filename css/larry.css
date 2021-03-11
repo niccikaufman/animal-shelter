@@ -44,3 +44,18 @@ li a:hover {
   border-width: 2px;
   border-color: antiquewhite;
 }
+
+h2 {
+  text-align: center;
+  color:orangered;
+}
+
+.info p, ul {
+  text-align: center;
+  color: antiquewhite;
+  border: darksalmon;
+  border-width: 1px;
+  border-style: dotted;
+  background-color: darkseagreen;
+  list-style: none;
+}
