@@ -1,5 +1,6 @@
 body {
   background-image: url(/images/background.jpg);
+  background-size: cover;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -41,29 +42,85 @@ body {
   text-decoration: none;
 }
 
-li a:hover {
+a:hover {
   background-color: cadetblue;
+  color: burlywood;
+}
+
+a:link {
+  color: antiquewhite;
+}
+
+a:visited {
+  color: antiquewhite;
 }
 
 h1 {
   color: antiquewhite;
-  text-decoration: underline;
+  text-align: center;
+  font-style: italic;
+}
+
+
+/* Bella */
+.container1 {
+  position: relative;
+  width: auto;
+  max-width: 300px;
+  float: left;
+  margin: 50px;
+}
+.container1:hover .overlay1 {
+  opacity: 1;
+  background-color: cadetblue;
+}
+.overlay1 {
+  position: relative;
+  width: 100%;
+  opacity:0;
+  font-size: 20px;
+  padding: 10px;
   text-align: center;
 }
 
-img {
+/* Loki */
+.container2 {
+  position: relative;
+  width: auto;
+  max-width: 300px;
+  float: right;
   margin: 50px;
 }
-
-.container1 {
-  float: right;
-  display: inline;
+.container2:hover .overlay2 {
+  opacity: 1;
+  background-color: cadetblue;
+}
+.overlay2 {
+  position: relative;
+  width: 100%;
+  opacity:0;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
 }
 
-.container2 {
-  float: right;
-}
-
+/* Larry */
 .container3 {
-float: right;
+  position: relative;
+  width: auto;
+  max-width: 300px;
+  float: left;
+  margin: 70px;
+}
+.container3:hover .overlay3 {
+  opacity: 1;
+  background-color: cadetblue;
+}
+.overlay3 {
+  position: relative;
+  width: 100%;
+  opacity:0;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
 }
