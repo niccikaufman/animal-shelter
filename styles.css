@@ -1,3 +1,40 @@
 body {
   background-image: url(/images/background.jpg);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page-title {
+  margin: 50px;
+  color: antiquewhite;
+  font-style: italic;
+  font-size: 22pt;
+  line-height: .5;
+}
+
+.site-nav {
+  background-color: lightgray;
+  margin-top: 5%;
+}
+
+.site-nav a {
+  box-sizing: content-box;
+  margin: 0;
+  padding-top: 10px;
+  color: lightcoral;
+}
+
+.sidebar li {
+  list-style-type: none;
+  margin: 5px;
+  float: right;
+}
+
+.header-img {
+  height: 50%;
+  margin: auto;
+  width: auto;
+  display: block;
+  border-style: dashed;
+  border-width: 2px;
+  border-color: antiquewhite;
 }
